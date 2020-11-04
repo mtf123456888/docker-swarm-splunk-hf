@@ -120,8 +120,7 @@ host-specific variables, not the common ones, as they have been moved to
 Our simplest image definition is still included in this [inventory.yml](examples/organized-environment/inventory.yml),
 but now it only has one variable (`version`), since the rest of its configuration was generic and applicable to almost
 any host in our environment.
-
-Now that our inventory is a bit easier to manage for multiple images, we'll move to the healthchecking image.
+healthchecking image.
 
 #### internal_healthcheck_forwarder's image-specific config
 
